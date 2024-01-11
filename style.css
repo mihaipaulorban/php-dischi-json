@@ -1,35 +1,83 @@
-.card {
-  width: 18rem;
-}
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
+/* Body e sfondo */
 body {
   background-image: linear-gradient(to right, #141e30, #243b55);
   color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
 }
-.card {
+
+/* Container per la card */
+.card-container {
   width: 18rem;
+  height: 27rem;
+  perspective: 1000px;
   margin-bottom: 30px;
+}
+
+/* Stile delle card */
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  cursor: pointer;
   text-align: center;
 }
+
+/* Gestione della visibilità durante il flip della card */
+.card * {
+  backface-visibility: hidden;
+}
+
 .card-img-top {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
-  aspect-ratio: 1 / 1;
 }
+
+/* Stile del testo */
 .card-text {
   margin-bottom: 0.5rem;
-  color: black;
 }
 
 .card-body {
-  color: black;
+  padding: 1rem;
 }
+
 .card-body .anno {
   color: grey;
   font-size: 0.8em;
+}
+
+/* Posizionamento fronte e retro della card */
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.25rem;
+}
+
+.card-front {
+  background: white;
+  z-index: 2;
+}
+
+.card-back {
+  background: white;
+  transform: rotateY(180deg);
+  color: black;
+  z-index: 1;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
 }

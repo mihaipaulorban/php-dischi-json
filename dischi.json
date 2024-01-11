@@ -3,36 +3,42 @@
     "titolo": "New Jersey",
     "artista": "Bon Jovi",
     "anno": 1988,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Bon_Jovi_New_Jersey.jpg/220px-Bon_Jovi_New_Jersey.jpg"
+    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Bon_Jovi_New_Jersey.jpg/220px-Bon_Jovi_New_Jersey.jpg",
+    "descrizione": "Rilasciato nel 1988, 'New Jersey' rappresenta il quarto album in studio di Bon Jovi, arricchito da potenti ballate rock e ritmi incalzanti che hanno segnato l'epoca."
   },
   {
     "titolo": "Live at Wembley 86",
     "artista": "Queen",
     "anno": 1992,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Queen_Live_At_Wembley_%2786.png/220px-Queen_Live_At_Wembley_%2786.png"
+    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Queen_Live_At_Wembley_%2786.png/220px-Queen_Live_At_Wembley_%2786.png",
+    "descrizione": "Un emblematico concerto live dei Queen, 'Live at Wembley 86' cattura l'energia e il carisma della band durante il Magic Tour, poco prima della morte di Freddie Mercury."
   },
   {
     "titolo": "Ten's Summoner's Tales",
     "artista": "Sting",
     "anno": 1993,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sting_-_Ten_Summoner%27s_Tales.png/220px-Sting_-_Ten_Summoner%27s_Tales.png"
+    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sting_-_Ten_Summoner%27s_Tales.png/220px-Sting_-_Ten_Summoner%27s_Tales.png",
+    "descrizione": "Il terzo album solista di Sting, 'Ten's Summoner's Tales', esplora temi della vita, dell'amore e della morale con un sound distintivo che fonde rock, folk e jazz."
   },
   {
     "titolo": "Steve Gadd band",
     "artista": "Steve Gadd Band",
     "anno": 2018,
-    "copertina": "https://m.media-amazon.com/images/I/816pHaCXh+L._SX300_.jpg"
+    "copertina": "https://m.media-amazon.com/images/I/816pHaCXh+L._SX300_.jpg",
+    "descrizione": "Con l'album omonimo, la Steve Gadd Band ci porta in un viaggio attraverso il jazz contemporaneo, dimostrando la maestria e il talento di uno dei più grandi batteristi viventi."
   },
   {
     "titolo": "Brave new World",
     "artista": "Iron Maiden",
     "anno": 2000,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Iron_Maiden_-_Brave_New_World.jpg/220px-Iron_Maiden_-_Brave_New_World.jpg"
+    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Iron_Maiden_-_Brave_New_World.jpg/220px-Iron_Maiden_-_Brave_New_World.jpg",
+    "descrizione": "Rappresentando una rinascita per gli Iron Maiden, 'Brave New World' unisce l'energia del metal classico con nuove sonorità, segnando il ritorno del cantante Bruce Dickinson."
   },
   {
     "titolo": "One more car, one more rider",
     "artista": "Eric Clapton",
     "anno": 2002,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Eric_Clapton_OMCOMR.jpg/220px-Eric_Clapton_OMCOMR.jpg"
+    "copertina": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Eric_Clapton_OMCOMR.jpg/220px-Eric_Clapton_OMCOMR.jpg",
+    "descrizione": "'One More Car, One More Rider' cattura la leggendaria performance live di Eric Clapton, con classici della sua carriera e magistrali assoli di chitarra."
   }
 ]
